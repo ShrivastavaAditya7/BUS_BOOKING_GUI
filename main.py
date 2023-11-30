@@ -30,23 +30,23 @@ class Application:
         )
         title.grid(row=1, column=0)
         name = tk.Label(
-            self.root, text="Name: Aaryan Raj", font=("Arial", 15), bg="light green"
+            self.root, text="Name: Aditya Shrivastava", font=("Arial", 15), bg="light green"
         )
         name.grid(row=2, column=0, pady=5)
         eno = tk.Label(
             self.root,
-            text="Enrollment No.: 221B004",
+            text="Mobile no: +91 7828716912",
             font=("Arial", 15),
             bg="light green",
         )
         eno.grid(row=3, column=0)
         mobile = tk.Label(
-            self.root, text="Mobile: 6204309807", font=("Arial", 15), bg="light green"
+            self.root, text="Btech cse Student", font=("Arial", 15), bg="light green"
         )
         mobile.grid(row=4, column=0)
         footer = tk.Label(
             self.root,
-            text="Submitted To: Dr. Mahesh Kumar",
+            text="Project using Tkinter in python",
             font=("Arial", 20, "bold"),
             bg="green",
         )
