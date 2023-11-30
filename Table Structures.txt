@@ -1,0 +1,16 @@
+operator_details Table: PARENT TABLE 1
+Fields: operator_id (Primary Key), operator_name, operator_address, operator_phone, operator_email
+
+bus_details Table: CHILD TABLE 1 OF PARENT 1 AND 2
+Fields: bus_id, bus_type, bus_capacity, bus_fare, operator_id (Foreign Key), route_id (Foreign Key), (bus_id and route_id) Composite Key
+
+route_details Table: PARENT TABLE 2
+Fields: route_id, route_station_name, route_station_id, (route_id, route_station_id) Composite Key
+
+running_details Table: CHILD TABLE 2 OF CHILD TABLE 1
+Fields: bus_id (Foreign Key), running_date, seats_available, (bus_id and running_date) Composite Key
+
+
+to_place, from_place, journey_date
+->
+operator_name, bus_type, seats_available/bus_capacity, bus_fare

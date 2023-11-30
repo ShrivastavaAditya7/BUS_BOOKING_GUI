@@ -1,0 +1,1 @@
+Buses can only be booked from Guna to Lucknow or vice-versa on 2023-11-29 and 2023-11-30 as the database has been initially populated with this data only. New data can be added through the Add Bus button.
